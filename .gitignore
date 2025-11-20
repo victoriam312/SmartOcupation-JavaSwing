@@ -1,0 +1,16 @@
+# Directorios de compilación de NetBeans
+/build/
+/dist/
+/nbproject/private/
+
+# Archivos temporales
+*.log
+*.orig
+
+# Archivos generados por el sistema
+.DS_Store
+
+# Archivos generados por Java
+*.class
+# Directorios de dependencias descargadas localmente
+/lib/
