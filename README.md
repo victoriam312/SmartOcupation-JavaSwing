@@ -42,7 +42,7 @@ Para clonar y ejecutar el proyecto en su entorno local:
 
 1.  Descargue las librerías **`mysql-connector-j-X.X.X.jar`** y **`jcalendar-X.X.X.jar`**.
 2.  En Apache NetBeans, añada ambos archivos `.jar` a las **Libraries** (Classpath) del proyecto.
-3.  Actualice el archivo `src/modelo/ConexionDB.java` con sus credenciales de MySQL (usuario y contraseña).
+3.  Copie `db.properties.example` como `db.properties` (en la raíz del proyecto) y ponga sus credenciales de MySQL. Este archivo está en `.gitignore`, así que las credenciales nunca se suben al repositorio. También puede usar las variables de entorno `DB_URL`, `DB_USER` y `DB_PASSWORD`.
 
 ### 3. Ejecución
 
