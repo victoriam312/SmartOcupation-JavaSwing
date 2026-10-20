@@ -14,3 +14,5 @@
 *.class
 # Directorios de dependencias descargadas localmente
 /lib/
+# Credenciales locales de la base de datos
+db.properties
